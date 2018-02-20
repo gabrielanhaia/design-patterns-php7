@@ -1,5 +1,7 @@
 <?php
 
+require_once('../autoloader.php');
+
 $integracaoLegado = new \Adapter\IntegracaoErp();
 
 $integracaoErpAdapter = new \Adapter\IntegracaoErpAdapter($integracaoLegado);
@@ -12,7 +14,9 @@ $pedidoDeTeste->setValorTotal(3509.50)
     ->addProduto('IPhone X')
     ->addProduto('Carregador Sem Fio - IPhone X');
 
-$pedidoEnviadoComSucesso = $integracaoErpAdapter->enviarPedido($pedidoDeTeste);
+$tokenTeste = 'XYZ123456ABC';
+
+$pedidoEnviadoComSucesso = $integracaoErpAdapter->enviarPedido($pedidoDeTeste, $tokenTeste);
 
 if ($pedidoEnviadoComSucesso) {
     echo 'Pedido envidado com sucesso!';
