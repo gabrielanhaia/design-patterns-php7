@@ -8,18 +8,33 @@ namespace Singleton;
  * Class DatabaseSingleton
  * @package Singleton
  */
-class DatabaseSingleton extends \PDO
+class DatabaseSingleton
 {
+    /** @var DatabaseSingleton $instance Instância do banco da dados. */
+    protected static $instance;
+
     /**
      * DatabaseSingleton constructor.
-     * @param $dsn
-     * @param $username
-     * @param $passwd
-     * @param $options
      */
-    private function __construct($dsn, $username, $passwd, $options)
+    private function __construct()
     {
-        parent::__construct($dsn, $username, $passwd, $options);
+
+    }
+
+    /**
+     * Magic method clone.
+     */
+    private function __clone()
+    {
+        // TODO: Implement __clone() method.
+    }
+
+    /**
+     * Magic method wakeup.
+     */
+    private function __wakeup()
+    {
+        // TODO: Implement __wakeup() method.
     }
 
     /**
@@ -29,12 +44,15 @@ class DatabaseSingleton extends \PDO
      * @param $password
      * @param $options
      */
-    public static function getInstance(
-        string $dsn,
-        string $username,
-        string $password,
-        array $options = []
-    ) {
-        parent::__construct($dsn, $username, $password, $options)
+    public static function getInstance() {
+        if (empty(self::$instance)) {
+            self::$instance = new \PDO(
+                'mysql:dbname=api;host=127.0.0.1',
+                'root',
+                '123123'
+            );
+        }
+
+        return self::$instance;
     }
 }
