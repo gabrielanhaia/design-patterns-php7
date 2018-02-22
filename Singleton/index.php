@@ -8,7 +8,7 @@ $logsSingleton = LogsSingleton::obterInstancia();
 
 $logsSingleton->gravarLog(['test']);
 
-$logsSingletonTeste = LogsSingleton::getInstance();
+$logsSingletonTeste = LogsSingleton::obterInstancia();
 
 if ($logsSingletonTeste === $logsSingleton) {
     echo 'As instâncias são exatamente as mesmas!';
