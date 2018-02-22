@@ -6,13 +6,10 @@ use Singleton\LogsSingleton;
 
 $logsSingleton = LogsSingleton::obterInstancia();
 
-print_r($logsSingleton->gravarLog(['test', 'fsaafs']));
+$logsSingleton->gravarLog(['test']);
 
-die;
-$instanciaDoBancoDeDados = \Singleton\DatabaseSingleton::getInstance();
+$logsSingletonTeste = LogsSingleton::getInstance();
 
-$segundaInstanciaDoBancoDeDados = \Singleton\DatabaseSingleton::getInstance();
-
-if ($instanciaDoBancoDeDados === $segundaInstanciaDoBancoDeDados) {
+if ($logsSingletonTeste === $logsSingleton) {
     echo 'As instâncias são exatamente as mesmas!';
 }

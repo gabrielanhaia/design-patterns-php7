@@ -41,7 +41,8 @@ class LogsSingleton
      * self constructor.
      * @return self
      */
-    public static function obterInstancia() {
+    public static function obterInstancia()
+    {
         if (empty(self::$instancia)) {
             self::$instancia = new self();
         }
