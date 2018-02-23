@@ -21,7 +21,6 @@ class BibliotecaFacade
     public function efetuaRetirada(string $codigoLivro, string $cpfCliente): bool
     {
         $moduloControleEstoque = new ModuloControleEstoque();
-        $moduloControleClientes = new ModuloControleClientes();
 
         if (!$moduloControleEstoque->validaEstoque($codigoLivro)) {
             throw new Exception('Estoque indisponível');
