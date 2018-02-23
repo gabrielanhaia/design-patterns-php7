@@ -22,6 +22,7 @@ class ModuloApiSms
     }
 
     /**
+     * @param string $tokenApi
      * @param string $nomeRemetente
      * @param string $nomeDestinatario
      * @param string $telefoneDestinatario
@@ -29,6 +30,7 @@ class ModuloApiSms
      * @return bool
      */
     public function enviaSms(
+        string $tokenApi,
         string $nomeRemetente,
         string $nomeDestinatario,
         string $telefoneDestinatario,
