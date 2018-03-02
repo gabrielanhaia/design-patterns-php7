@@ -26,7 +26,7 @@ class BibliotecaFacade
             throw new Exception('Estoque indisponível');
         }
 
-        $moduloControleEstoque->registraRetirada($codigoLivro, $cpfCliente);
+        return $moduloControleEstoque->registraRetirada($codigoLivro, $cpfCliente);
     }
 
     /**
