@@ -3,10 +3,10 @@
 namespace Observer;
 
 /**
- * Class ControleImoveisObserver
+ * Class ControleReservasObserver
  * @package Observer
  */
-class ControleImoveisObserver implements Observer
+class ControleReservasObserver implements Observer
 {
 
     public function atualizado(string $codigo, float $valor)
