@@ -16,8 +16,12 @@ class ControleRequisicoesCompraObserver implements Observer
         $this->adicionaListaRequisicaoCompra($codigo);
     }
 
+    /**
+     * Simula a adição do produto a lista de requisições de compra.
+     * @param string $codigoProduto
+     */
     public function adicionaListaRequisicaoCompra(string $codigoProduto)
     {
-        // Simula a adição do produto a lista de requisições de compra.
+        echo 'Produto adicionado a lista de requisições de compra';
     }
 }
