@@ -13,6 +13,14 @@ class EmailObserver implements Observer
      */
     public function atualizado(string $codigo)
     {
-        // TODO: Implement atualizado() method.
+        $this->enviaEmailEstoqueZerado($codigo);
+    }
+
+    /**
+     * @param string $codigoProduto
+     */
+    public function enviaEmailEstoqueZerado(string $codigoProduto)
+    {
+        // Simula o envio de um email para o setor financeiro informando que o estoque do produto está zerado.
     }
 }
