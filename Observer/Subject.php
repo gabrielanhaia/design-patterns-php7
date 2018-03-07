@@ -1,14 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gabrielanhaia
- * Date: 05/03/18
- * Time: 17:35
- */
 
 namespace Observer;
 
-
+/**
+ * Interface Subject
+ * @package Observer
+ */
 interface Subject
 {
     /**
