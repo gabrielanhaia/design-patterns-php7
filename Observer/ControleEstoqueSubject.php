@@ -8,7 +8,6 @@ namespace Observer;
  */
 class ControleEstoqueSubject implements Subject
 {
-
     /**
      * @param Observer $observer
      * @return bool
