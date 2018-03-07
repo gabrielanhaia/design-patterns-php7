@@ -11,6 +11,15 @@ class ControleEstoqueSubject implements Subject
     /** @var Observer[] $observers */
     private $observers;
 
+    public function atualizaEstoqueProduto(string $codigoProduto, int $novaQuantidade): bool
+    {
+        // Simula a atualização de estoque de um produto.
+
+        if ($novaQuantidade == 0) {
+            $this->notificarObservers($codigoProduto);
+        }
+    }
+
     /**
      * @param Observer $observer
      * @return bool
