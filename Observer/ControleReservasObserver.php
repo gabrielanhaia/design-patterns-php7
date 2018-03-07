@@ -10,9 +10,8 @@ class ControleReservasObserver implements Observer
 {
     /**
      * @param string $codigo
-     * @param float $valor
      */
-    public function atualizado(string $codigo, float $valor)
+    public function atualizado(string $codigo)
     {
         // TODO: Implement atualizado() method.
     }
