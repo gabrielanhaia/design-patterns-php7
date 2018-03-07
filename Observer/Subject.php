@@ -24,7 +24,8 @@ interface Subject
     public function removerObserver(Observer $observer): bool;
 
     /**
+     * @param string $codigoProduto
      * @return bool
      */
-    public function notificarObservers();
+    public function notificarObservers(string $codigoProduto);
 }

@@ -8,29 +8,42 @@ namespace Observer;
  */
 class ControleEstoqueSubject implements Subject
 {
+    /** @var Observer[] $observers */
+    private $observers;
+
     /**
      * @param Observer $observer
      * @return bool
      */
     public function adicionarObserver(Observer $observer)
     {
-        // TODO: Implement adicionarObserver() method.
+        $this->observers[] = $observer;
     }
 
     /**
-     * @param Observer $observer
+     * @param Observer $observerRemover
      * @return bool
      */
-    public function removerObserver(Observer $observer): bool
+    public function removerObserver(Observer $observerRemover): bool
     {
-        // TODO: Implement removerObserver() method.
+        foreach ($this->observers as $index => $observer) {
+            if ($observer === $observerRemover) {
+                unset($this->observers[$index]);
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /**
-     * @return bool
+     * @param string $codigoProduto
+     * @return bool|void
      */
-    public function notificarObservers()
+    public function notificarObservers(string $codigoProduto)
     {
-        // TODO: Implement notificarObservers() method.
+        foreach ($this->observers as $observer) {
+            $observer->atualizado($codigoProduto);
+        }
     }
 }
