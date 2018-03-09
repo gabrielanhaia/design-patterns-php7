@@ -30,7 +30,7 @@ class Texto
      */
     public function escreverTexto(string $texto)
     {
-        $this->textoCareTaker->adicionarMemento(new TextoMemento($texto));
+        $this->textoCareTaker->adicionarMemento(new TextoMemento($this->texto));
         $this->texto .= $texto;
     }
 

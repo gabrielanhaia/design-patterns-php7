@@ -9,8 +9,8 @@ namespace Memento;
  */
 class TextoMemento
 {
-    /** @var string $texto Estodo do texto salvo. */
-    protected $texto;
+    /** @var string $estadoTexto Estodo do texto salvo. */
+    protected $estadoTexto;
 
     /**
      * TextoMemento constructor.
@@ -18,7 +18,7 @@ class TextoMemento
      */
     public function __construct(string $estadoTexto)
     {
-        $this->estadoTexto;
+        $this->estadoTexto = $estadoTexto;
     }
 
     /**
@@ -27,6 +27,6 @@ class TextoMemento
      */
     public function getTexto(): string
     {
-        return $this->texto;
+        return $this->estadoTexto;
     }
 }
