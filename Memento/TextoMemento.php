@@ -1,5 +1,4 @@
-<?phpAtualização efetuada com sucesso!
-
+<?php
 
 namespace Memento;
 
