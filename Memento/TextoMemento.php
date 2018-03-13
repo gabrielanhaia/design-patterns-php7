@@ -9,7 +9,7 @@ namespace Memento;
  */
 class TextoMemento
 {
-    /** @var string $estadoTexto Estodo do texto salvo. */
+    /** @var string $estadoTexto Estado do texto salvo. */
     protected $estadoTexto;
 
     /**
