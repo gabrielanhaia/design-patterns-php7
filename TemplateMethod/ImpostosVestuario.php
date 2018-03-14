@@ -16,6 +16,6 @@ class ImpostosVestuario extends ImpostosAbstract
      */
     protected function calculaImpostoVariavel(float $precoProduto): float
     {
-        // TODO: Implement calculaImpostoVariavel() method.
+        return ($precoProduto * 1.15);
     }
 }

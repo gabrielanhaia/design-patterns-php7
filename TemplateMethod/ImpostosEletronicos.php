@@ -16,6 +16,10 @@ class ImpostosEletronicos extends ImpostosAbstract
      */
     protected function calculaImpostoVariavel(float $precoProduto): float
     {
-        // TODO: Implement calculaImpostoVariavel() method.
+        $precoProduto = ($precoProduto * 1.2);
+
+        $precoProduto = $this->calculaImpostoAdicional($precoProduto);
+
+        return $precoProduto;
     }
 }
