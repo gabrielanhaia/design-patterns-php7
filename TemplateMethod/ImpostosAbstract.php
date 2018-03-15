@@ -3,7 +3,7 @@
 namespace TemplateMethod;
 
 /**
- * Implementação da classe base do "Template Method".
+ * ImplementaÃ§Ã£o da classe base do "Template Method".
  *
  * Class ImpostosAbstract
  * @package TemplateMethod
@@ -13,7 +13,7 @@ namespace TemplateMethod;
 abstract class ImpostosAbstract
 {
     /**
-     * Implementação do "Template Method".
+     * ImplementaÃ§Ã£o do "Template Method".
      *
      * @param float $precoProduto
      * @return float
@@ -23,6 +23,8 @@ abstract class ImpostosAbstract
         $precoProduto = $this->calculaPrimeiroImpostoFixo($precoProduto);
 
         $precoProduto = $this->calculaSegundoImpostoFixo($precoProduto);
+
+        $precoProduto = $this->calculaImpostoAdicional($precoProduto);
 
         $precoProduto = $this->calculaImpostoVariavel($precoProduto);
 
@@ -54,12 +56,12 @@ abstract class ImpostosAbstract
     }
 
     /**
-     * Implementação do "Hook Method"
+     * ImplementaÃ§Ã£o do "Hook Method"
      * @param float $precoProduto
      * @return float
      */
     protected function calculaImpostoAdicional(float $precoProduto): float
     {
-        return $precoProduto - ($precoProduto * 0.1);
+        return $precoProduto;
     }
 }

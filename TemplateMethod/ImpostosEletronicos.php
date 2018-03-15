@@ -18,8 +18,15 @@ class ImpostosEletronicos extends ImpostosAbstract
     {
         $precoProduto = ($precoProduto * 1.2);
 
-        $precoProduto = $this->calculaImpostoAdicional($precoProduto);
-
         return $precoProduto;
+    }
+
+    /**
+     * @param float $precoProduto
+     * @return float
+     */
+    protected function calculaImpostoAdicional(float $precoProduto): float
+    {
+        return $precoProduto - ($precoProduto * 0.1);
     }
 }
