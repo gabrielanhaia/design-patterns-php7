@@ -6,7 +6,7 @@ namespace Strategy;
  * Class ComprimirRar
  * @package Strategy
  */
-class ComprimirRar implements CompressaoStrategy
+class ComprimirRar extends CompressaoStrategy
 {
     /**
      * @param string $caminhoArquivos

@@ -9,7 +9,7 @@
 namespace Strategy;
 
 
-class ComprimirZip implements CompressaoStrategy
+class ComprimirZip extends CompressaoStrategy
 {
     /**
      * @param string $caminhoArquivos
