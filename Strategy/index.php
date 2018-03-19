@@ -17,3 +17,5 @@ echo "\n";
 
 $compressaoContext->setCompressaoStrategy($strategyTar);
 $compressaoContext->comprimir('/CAMINHO/ARQUIVOS');
+echo "\n";
+
