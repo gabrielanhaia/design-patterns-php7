@@ -33,6 +33,6 @@ class CompressaoContext
      */
     public function comprimir(string $caminhoArquivo)
     {
-        $this->compressaoStrategy->comprimir($caminhoArquivo)
+        $this->compressaoStrategy->comprimir($caminhoArquivo);
     }
 }
