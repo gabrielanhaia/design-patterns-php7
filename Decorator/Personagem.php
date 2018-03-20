@@ -8,7 +8,13 @@ abstract class Personagem
 
     protected $nome;
 
-    abstract public function getNome(): string;
+    public function getNome(): string
+    {
+        return $this->nome;
+    }
 
-    abstract public function getAtaque(): float;
+    public function getAtaque(): float
+    {
+        return $this->ataque;
+    }
 }

@@ -10,14 +10,4 @@ class Mago extends Personagem
         $this->nome = 'Mago';
         $this->ataque = '10';
     }
-
-    public function getNome(): string
-    {
-        return $this->nome;
-    }
-
-    public function getAtaque(): float
-    {
-        return $this->nome;
-    }
 }
