@@ -3,6 +3,12 @@
 require_once('../autoloader.php');
 
 $decorator = new \Decorator\PersonagemDecorator(new \Decorator\Mago());
+$decorator = new \Decorator\AnelDeFogo($decorator);
+$decorator = new \Decorator\AnelDeFogo($decorator);
+$decorator = new \Decorator\ColarDaForca($decorator);
 $decorator = new \Decorator\EspadaMagica($decorator);
 
-echo $decorator->getAtaque();
+echo $decorator->getNome();
+echo "\n";
+echo "Ataque = {$decorator->getAtaque()}";
+echo "\n";
