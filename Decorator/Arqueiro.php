@@ -8,7 +8,7 @@ namespace Decorator;
  *
  * @author Gabriel Anhaia <gabriel@mestredev.com.br>
  */
-class Arqueiro
+class Arqueiro extends Personagem
 {
     /**
      * Mago constructor.

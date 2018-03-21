@@ -8,7 +8,7 @@ namespace Decorator;
  *
  * @author Gabriel Anhaia <gabriel@mestredev.com.br>
  */
-class Cavaleiro
+class Cavaleiro extends Personagem
 {
     /**
      * Mago constructor.
