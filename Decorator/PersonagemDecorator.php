@@ -3,7 +3,7 @@
 namespace Decorator;
 
 
-class PersonagemDecorator extends Personagem
+abstract class PersonagemDecorator extends Personagem
 {
     /** @var Personagem $personagem */
     protected $personagem;
