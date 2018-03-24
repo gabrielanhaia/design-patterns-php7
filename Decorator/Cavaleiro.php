@@ -16,6 +16,6 @@ class Cavaleiro extends Personagem
     public function __construct()
     {
         $this->nome = 'Cavaleiro';
-        $this->ataque = '13';
+        $this->ataque = 13;
     }
 }
