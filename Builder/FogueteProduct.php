@@ -21,6 +21,19 @@ class FogueteProduct
     protected $numeroLugares;
 
     /**
+     * @return string
+     */
+    public function __toString(): string
+    {
+        $result = "Foguete model: {$this->getModelo()}\n";
+        $result .= "Litros do tanque: {$this->getLitrosCombustivel()}\n";
+        $result .= "Número de motores: {$this->getNumeroMotores()}\n";
+        $result .= "Número de lugares: {$this->getNumeroLugares()}\n";
+
+        return $result;
+    }
+
+    /**
      * @return float
      */
     public function getLitrosCombustivel(): float
