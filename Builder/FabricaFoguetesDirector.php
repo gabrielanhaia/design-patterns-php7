@@ -21,7 +21,7 @@ class FabricaFoguetesDirector
     }
 
     /**
-     * MÈtodo respons·vel por construir o foguete.
+     * M√©todo respons√°vel por construir o foguete.
      */
     public function construirFoguete()
     {

@@ -27,8 +27,8 @@ class FogueteProduct
     {
         $result = "Foguete model: {$this->getModelo()}\n";
         $result .= "Litros do tanque: {$this->getLitrosCombustivel()}\n";
-        $result .= "Número de motores: {$this->getNumeroMotores()}\n";
-        $result .= "Número de lugares: {$this->getNumeroLugares()}\n";
+        $result .= "NÃºmero de motores: {$this->getNumeroMotores()}\n";
+        $result .= "NÃºmero de lugares: {$this->getNumeroLugares()}\n";
 
         return $result;
     }

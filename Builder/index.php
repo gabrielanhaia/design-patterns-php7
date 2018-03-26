@@ -1,5 +1,7 @@
 <?php
 
+require_once('../autoloader.php');
+
 use Builder\FabricaFoguetesDirector;
 use Builder\FogueteModeloIBuilder;
 use Builder\FogueteModeloIIBuilder;
