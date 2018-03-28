@@ -15,17 +15,13 @@ abstract class FogueteBuilder
         $this->foguete = new FogueteProduct();
     }
 
-    /** @var float $tanqueCombustivel */
-    protected $tanqueCombustivel;
-
-    /** @var string $modelo */
-    protected $modelo;
-
-    /** @var int $numeroMotores */
-    protected $numeroMotores;
-
-    /** @var  int $numeroLugares */
-    protected $numeroLugares;
+    /**
+     * @return FogueteProduct
+     */
+    public function getFoguete(): FogueteProduct
+    {
+        return $this->foguete;
+    }
 
     /**
      * @return void
@@ -46,12 +42,4 @@ abstract class FogueteBuilder
      * @return void
      */
     abstract public function buildNumeroLugares();
-
-    /**
-     * @return FogueteProduct
-     */
-    public function getFoguete(): FogueteProduct
-    {
-        return $this->foguete;
-    }
 }
