@@ -12,16 +12,16 @@ class DodgeCharger implements CarroProduct
 {
     public function acelerar()
     {
-        echo 'Acelerando Dodge Charger';
+        echo "Acelerando Dodge Charger\n";
     }
 
     public function frear()
     {
-        echo 'Freando Dodge Charger';
+        echo "Freando Dodge Charger\n";
     }
 
     public function trocarMarcha()
     {
-        echo 'Trocando marcha do Dodge Charger';
+        echo "Trocando marcha do Dodge Charger\n";
     }
 }

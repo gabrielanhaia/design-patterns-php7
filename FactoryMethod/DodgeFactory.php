@@ -26,7 +26,7 @@ class DodgeFactory implements CarroFactory
         } elseif ($modeloCarro == 'dart') {
             return new DodgeDart();
         } else {
-            throw new \Exception('Modelo de carro não existe no sistema.');
+            throw new \Exception("Modelo de carro \"{$modeloCarro}\" não existe no sistema.");
         }
     }
 }

@@ -7,12 +7,12 @@ use FactoryMethod\Product\{
 };
 
 /**
- * Class DodgeFactory
+ * Class TeslaFactory
  * @package FactoryMethod
  *
  * @author Gabriel Anhaia <gabriel@mestredev.com.br>
  */
-class DodgeFactory implements CarroFactory
+class TeslaFactory implements CarroFactory
 {
     /**
      * @param string $modeloCarro
@@ -23,10 +23,10 @@ class DodgeFactory implements CarroFactory
     {
         if ($modeloCarro == 'modelo_x') {
             return new TeslaModeloX();
-        } elseif ($modeloCarro == 'modelo_y') {
+        } elseif ($modeloCarro == 'modelo_s') {
             return new TeslaModeloS();
         } else {
-            throw new \Exception('Modelo de carro não existe no sistema.');
+            throw new \Exception("Modelo de carro \"{$modeloCarro}\" não existe no sistema.");
         }
     }
 }

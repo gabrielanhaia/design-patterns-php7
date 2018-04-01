@@ -12,16 +12,16 @@ class DodgeDart implements CarroProduct
 {
     public function acelerar()
     {
-        echo 'Acelerando Dodge Dart';
+        echo "Acelerando Dodge Dart\n";
     }
 
     public function frear()
     {
-        echo 'Freando Dodge Dart';
+        echo "Freando Dodge Dart\n";
     }
 
     public function trocarMarcha()
     {
-        echo 'Trocando marcha do Dodge Dart';
+        echo "Trocando marcha do Dodge Dart\n";
     }
 }
