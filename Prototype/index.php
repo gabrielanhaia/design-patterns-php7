@@ -20,4 +20,5 @@ foreach ($compradores as $nomeComprador) {
     $livros[] = $livroComprador;
 }
 
+echo '<pre>';
 print_r($livros);

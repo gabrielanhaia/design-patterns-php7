@@ -19,5 +19,6 @@ class LivroPythonPrototype extends LivroPrototype
 
     public function __clone()
     {
+        echo "Livro Python Clonado\n";
     }
 }

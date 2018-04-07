@@ -17,7 +17,11 @@ class LivroPhpPrototype extends LivroPrototype
         $this->setAssunto('PHP');
     }
 
+    /**
+     * @return self
+     */
     public function __clone()
     {
+        echo "Livro PHP Clonado\n";
     }
 }

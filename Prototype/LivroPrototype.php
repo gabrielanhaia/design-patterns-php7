@@ -21,7 +21,7 @@ abstract class LivroPrototype
     /**
      * @return self
      */
-    abstract function __clone();
+    abstract public function __clone();
 
     /**
      * @return string
