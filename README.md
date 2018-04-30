@@ -4,4 +4,4 @@ Este é o repositório dos exemplos desenvolvidos no livro **Design Patterns com
 
 [Capa do Livro](www.google.com.br)
 
-O livro é distribuído pela editora (Casa do Código)[www.casadocodigo.com.br], e pode ser encontrado diretamente (aqui)[www.google.com.br].
+O livro é distribuído pela editora [Casa do Código](www.casadocodigo.com.br), e pode ser encontrado diretamente [aqui](www.google.com.br).
