@@ -18,6 +18,8 @@ class ModuloControleEstoque
     public function registraRetirada(string $codigoDoLivro, int $cpfDoCliente): bool
     {
         // Efetua o registro de retirada do livro.
+        echo "Registro de retirada efetuado com sucesso.\n";
+
         return true;
     }
 

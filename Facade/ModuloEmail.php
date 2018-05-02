@@ -33,6 +33,8 @@ class ModuloEmail
         string $mensagem
     ): bool {
         // Simula envio de mensagem de email.
+        echo "Email enviado com sucesso.\n";
+
         return true;
     }
 }

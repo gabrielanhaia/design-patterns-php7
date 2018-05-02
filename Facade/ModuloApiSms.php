@@ -37,6 +37,8 @@ class ModuloApiSms
         string $mensagem
     ): bool {
         // Simula envio de mensagem SMS via API.
+        echo "SMS enviado com sucesso.\n";
+
         return true;
     }
 }
