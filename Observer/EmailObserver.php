@@ -17,7 +17,7 @@ class EmailObserver implements Observer
     }
 
     /**
-     * Simula o envio de um email para o setor financeiro informando que o estoque do produto est· zerado.
+     * Simula o envio de um email para o setor financeiro informando que o estoque do produto est√° zerado.
      * @param string $codigoProduto
      */
     public function enviaEmailEstoqueZerado(string $codigoProduto)

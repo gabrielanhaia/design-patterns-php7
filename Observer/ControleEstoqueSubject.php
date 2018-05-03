@@ -13,7 +13,7 @@ class ControleEstoqueSubject implements Subject
 
     public function atualizaEstoqueProduto(string $codigoProduto, int $novaQuantidade): bool
     {
-        // Simula a atualização de estoque de um produto.
+        // Simula a atualizaÃ§Ã£o de estoque de um produto.
 
         if ($novaQuantidade == 0) {
             $this->notificarObservers($codigoProduto);
