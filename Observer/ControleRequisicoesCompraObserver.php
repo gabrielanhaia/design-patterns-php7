@@ -17,11 +17,11 @@ class ControleRequisicoesCompraObserver implements Observer
     }
 
     /**
-     * Simula a adição do produto a lista de requisições de compra.
+     * Simula a adiÃ§Ã£o do produto a lista de requisiÃ§Ãµes de compra.
      * @param string $codigoProduto
      */
     public function adicionaListaRequisicaoCompra(string $codigoProduto)
     {
-        echo 'Produto adicionado a lista de requisições de compra';
+        echo 'Produto adicionado a lista de requisiÃ§Ãµes de compra';
     }
 }
