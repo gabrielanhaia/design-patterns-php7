@@ -11,7 +11,7 @@ namespace Adapter;
 class Pedido
 {
     /** @var integer $numeroPedido Número identificador do pedido. */
-    protected integer $numeroPedido;
+    protected int $numeroPedido;
 
     /** @var float $valorTotal Valor total do pedido. */
     protected float $valorTotal;
