@@ -5,7 +5,7 @@ namespace Memento;
 /**
  * Class Texto
  * @package Memento
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class Texto
 {
@@ -35,7 +35,7 @@ class Texto
     }
 
     /**
-     * Desfaz a ultima atualização no texto.
+     * Desfaz a ultima atualizaï¿½ï¿½o no texto.
      */
     public function desfazerEscrita()
     {

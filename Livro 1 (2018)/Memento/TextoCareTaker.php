@@ -5,7 +5,7 @@ namespace Memento;
 /**
  * Class TextoCareTaker
  * @package Memento
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class TextoCareTaker
 {
@@ -21,7 +21,7 @@ class TextoCareTaker
     }
 
     /**
-     * Retorna o útimo estado salvo de Memento.
+     * Retorna o ï¿½timo estado salvo de Memento.
      * @return TextoMemento
      */
     public function retornarUltimoEstadoSalvo(): TextoMemento

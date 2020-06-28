@@ -6,7 +6,7 @@ namespace Facade;
  * Class ModuloControleClientes
  * @package Facade
  *
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class ModuloControleClientes
 {
@@ -20,7 +20,7 @@ class ModuloControleClientes
         return [
             'nome' => 'Gabriel Anhaia',
             'telefone' => '99999999999',
-            'email' => 'gabriel@mestredev.com.br'
+            'email' => 'anhaia.gabriel@gmail.com'
         ];
     }
 }

@@ -6,7 +6,7 @@ namespace Facade;
  * Class ModuloControleEstoque
  * @package Facade
  * 
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class ModuloControleEstoque
 {
@@ -29,7 +29,7 @@ class ModuloControleEstoque
      */
     public function validaEstoque(string $codigoDoLivro): bool
     {
-        // ... Valida de possuí estoque
+        // ... Valida de possuï¿½ estoque
         return true;
     }
 }

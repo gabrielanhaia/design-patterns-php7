@@ -5,7 +5,7 @@ namespace Prototype;
 /**
  * Class LivroPythonPrototype
  * @package Prototype
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class LivroPythonPrototype extends LivroPrototype
 {

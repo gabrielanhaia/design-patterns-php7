@@ -6,7 +6,7 @@ namespace Facade;
  * Class ModuloEmail
  * @package Facade
  *
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class ModuloEmail
 {
@@ -15,7 +15,7 @@ class ModuloEmail
      */
     public function validaServidorDeEmails(): bool
     {
-        // Valida se o servidor de email's está funcionando.
+        // Valida se o servidor de email's estï¿½ funcionando.
         return true;
     }
 

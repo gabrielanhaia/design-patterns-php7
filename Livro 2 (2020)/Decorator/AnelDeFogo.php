@@ -6,7 +6,7 @@ namespace Decorator;
  * Class AnelDeFogo
  * @package Decorator
  *
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class AnelDeFogo extends PersonagemDecorator
 {

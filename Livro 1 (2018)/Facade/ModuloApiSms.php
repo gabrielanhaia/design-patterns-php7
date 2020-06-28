@@ -6,7 +6,7 @@ namespace Facade;
  * Class ModuloApiSms
  * @package Facade
  * 
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class ModuloApiSms
 {
@@ -17,7 +17,7 @@ class ModuloApiSms
      */
     public function geraTokenApi(string $apiKey, string $apiPass): string
     {
-        // Simula a geração de um token através da API de envio de SMS.
+        // Simula a geraï¿½ï¿½o de um token atravï¿½s da API de envio de SMS.
         return 'TOKEN_RETORNADO_API';
     }
 

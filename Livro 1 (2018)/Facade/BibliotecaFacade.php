@@ -9,7 +9,7 @@ use Facade\{
 /**
  * Class BibliotecaFacade
  * @package Facade
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class BibliotecaFacade
 {
@@ -23,7 +23,7 @@ class BibliotecaFacade
         $moduloControleEstoque = new ModuloControleEstoque();
 
         if (!$moduloControleEstoque->validaEstoque($codigoLivro)) {
-            throw new Exception('Estoque indisponível');
+            throw new Exception('Estoque indisponï¿½vel');
         }
 
         return $moduloControleEstoque->registraRetirada($codigoLivro, $cpfCliente);
@@ -53,7 +53,7 @@ class BibliotecaFacade
                 'Biblioteca de Teste',
                 $cliente['nome'],
                 $cliente['email'],
-                "Aluguel de livro de código '{$codigoLivro}' efetuado com sucesso!"
+                "Aluguel de livro de cï¿½digo '{$codigoLivro}' efetuado com sucesso!"
             );
         }
 
@@ -64,7 +64,7 @@ class BibliotecaFacade
             'Biblioteca de Teste',
             $cliente['nome'],
             $cliente['telefone'],
-            "Aluguel de livro de código '{$codigoLivro}' efetuado com sucesso!"
+            "Aluguel de livro de cï¿½digo '{$codigoLivro}' efetuado com sucesso!"
         );
 
         return true;

@@ -6,7 +6,7 @@ namespace FactoryMethod\Product;
  * Class DodgeCharger
  * @package FactoryMethod
  *
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class DodgeCharger implements CarroProduct
 {

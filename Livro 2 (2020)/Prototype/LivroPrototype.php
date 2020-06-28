@@ -6,7 +6,7 @@ namespace Prototype;
  * Class LivroPrototype
  *
  * @package Prototype
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 abstract class LivroPrototype
 {

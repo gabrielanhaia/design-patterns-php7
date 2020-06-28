@@ -6,7 +6,7 @@ namespace TemplateMethod;
  * Class ImpostosAlimentacao
  * @package TemplateMethod
  *
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class ImpostosAlimentacao extends ImpostosAbstract
 {

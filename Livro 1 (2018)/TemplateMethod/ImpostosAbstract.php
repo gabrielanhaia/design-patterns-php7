@@ -8,7 +8,7 @@ namespace TemplateMethod;
  * Class ImpostosAbstract
  * @package TemplateMethod
  *
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 abstract class ImpostosAbstract
 {

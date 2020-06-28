@@ -10,7 +10,7 @@ use FactoryMethod\Product\{
  * Class DodgeFactory
  * @package FactoryMethod
  *
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 class DodgeFactory implements CarroFactory
 {

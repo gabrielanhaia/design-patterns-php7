@@ -8,11 +8,11 @@ namespace Decorator;
  * Class Personagem
  * @package Decorator
  *
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 abstract class Personagem
 {
-    /** @var float $ataque Força de ataque. */
+    /** @var float $ataque Forï¿½a de ataque. */
     protected $ataque;
 
     /** @var string $nome Nome da classe do personagem. */
@@ -29,7 +29,7 @@ abstract class Personagem
     }
 
     /**
-     * Retorna a força de ataque do personagem.
+     * Retorna a forï¿½a de ataque do personagem.
      *
      * @return float
      */

@@ -6,7 +6,7 @@ namespace FactoryMethod\Product;
  * Interface CarroProduct
  * @package FactoryMethod
  *
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 interface CarroProduct
 {

@@ -8,7 +8,7 @@ namespace Decorator;
  * Class Personagem
  * @package Decorator
  *
- * @author Gabriel Anhaia <gabriel@mestredev.com.br>
+ * @author Gabriel Anhaia <anhaia.gabriel@gmail.com>
  */
 abstract class Personagem
 {
